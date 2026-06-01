@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dispatcher Training Web Ilova</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Dispatcher Training &#8211; US Logistics</h1>
+      <p>To‘liq web darslik: boshlang‘ichdan professionalgacha. Har bir darsni o‘qib, "Davom etish" tugmasini bosing.</p>
+      <button id="startBtn">Darsni boshlash</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <aside class="sidebar">
+      <h2>Modullar</h2>
+      <div id="moduleList" class="module-list"></div>
+    </aside>
+
+    <section class="content">
+      <div id="lessonCard" class="lesson-card">
+        <div class="lesson-header">
+          <h2 id="lessonTitle">Module 1: Introduction</h2>
+          <p id="lessonSubtitle">Va siz uchun o‘qish tartibi</p>
+        </div>
+        <div id="lessonBody" class="lesson-body"></div>
+        <div id="lessonTasks" class="lesson-tasks"></div>
+        <div class="lesson-actions">
+          <button id="prevBtn" disabled>Oldingi</button>
+          <button id="nextBtn">Keyingi</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Web ilova. Har bir darsdan keyin "Keyingi" ni bosing va amaliy topshiriqlarni bajaring.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
